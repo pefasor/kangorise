@@ -1,16 +1,15 @@
 import { useEffect } from "react";
 import { Navbar } from "../sections/Navbar";
 import { Footer } from "../sections/Footer";
-import { ScrollToTop } from "../components/ScrollToTop";
 
-export function TermsOfUse() {
+export function PrivacyPolicy() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      <Navbar scrollY={0} />
       <main className="pt-20 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-8">Terms of Use</h1>
