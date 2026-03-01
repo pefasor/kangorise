@@ -60,7 +60,6 @@ export function PrivacyPolicy() {
         </div>
       </main>
       <Footer />
-      <ScrollToTop />
     </div>
   );
 }

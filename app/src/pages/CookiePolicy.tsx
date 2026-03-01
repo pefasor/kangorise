@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Navbar } from "../sections/Navbar";
 import { Footer } from "../sections/Footer";
 
-export function PrivacyPolicy() {
+export function CookiePolicy() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -60,7 +60,6 @@ export function PrivacyPolicy() {
         </div>
       </main>
       <Footer />
-      <ScrollToTop />
     </div>
   );
 }
