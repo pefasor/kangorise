@@ -85,6 +85,10 @@ export function FAQ() {
       title: 'Shipping & Delivery',
       questions: [
         {
+          q: 'How long does shipping take?',
+          a: 'Shipping typically takes 12-17 business days as we process bulk orders to ensure the best prices. You will receive a tracking number once your order ships.',
+        },
+        {
           q: 'What is the shipping cost?',
           a: 'We offer free shipping to everywhere in the United States. Your orders are shipped within 1-3 business days. Same-day delivery option is also available in major cities.',
         },

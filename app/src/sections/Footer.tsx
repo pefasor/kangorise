@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Youtube, Linkedin, ArrowUp } from 'lucide-react';
+import { Instagram, ArrowUp } from 'lucide-react';
 
 export function Footer() {
   const scrollToTop = () => {
@@ -25,13 +25,6 @@ export function Footer() {
     ],
   };
 
-  const socialLinks = [
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Youtube, href: '#', label: 'Youtube' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  ];
-
   return (
     <footer className="bg-gray-900 text-white relative">
       {/* Main Footer */}
@@ -53,18 +46,17 @@ export function Footer() {
                 with low-impact, high-results exercise boots.
               </p>
               
-              {/* Social Links */}
+              {/* Social Links - Sadece Instagram */}
               <div className="flex gap-3">
-                {socialLinks.map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.href}
-                    aria-label={social.label}
-                    className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-brand-blue transition-colors duration-300"
-                  >
-                    <social.icon className="w-5 h-5" />
-                  </a>
-                ))}
+                <a
+                  href="https://www.instagram.com/kangorisee/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center hover:bg-brand-blue transition-colors duration-300"
+                >
+                  <Instagram className="w-5 h-5" />
+                </a>
               </div>
             </div>
 
